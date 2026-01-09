@@ -1,0 +1,19 @@
+.article{
+    border: 10px solid rgb(10, 10, 58);
+    background-color: rgb(164, 187, 207) ;
+    /* margin: 5px; */
+    padding: 10px;
+    box-shadow: 10px 10px 30px;
+    
+}
+h1, h3{
+    text-decoration: underline;
+}
+.header{
+    background-color: rgb(94, 130, 130);
+    background-image: url('../Images/a22adf5f-3d6c-488c-b166-f1b8e4b701f7.jpg');
+    height: 400px;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 10px 10px 30px;
+}

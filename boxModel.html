@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Border</title>
+    
+    <style>
+        *{
+            margin:0;
+        }
+        .myBlog{
+            /* border-bottom: 15px solid rgb(70, 43, 11);
+            border-radius: 15px;
+            border-top: none;
+            border-top: 5px dashed rgb(70, 43, 11);
+            border-left: 15px dotted rgb(70, 43, 11);
+            border-right: 15px slategray solid; */
+            border:20px solid rgb(113, 70, 19);
+            /* Applied to all */
+            /* margin:10px;   */
+            /* TopBottom RightLeft */
+            /* margin:10px 30px; */
+            /* Top RightLeft Bottom */
+            /* margin: 10px 50px 100px; */
+            /* Top Right Bottom Left */
+            /* margin:10px 50px 100px 150px; */
+            margin:15px;
+
+            /* Margin -> laptop border theke kotokhani bhitore */
+            /* Padding -> margin theke kotokhani bhitore */
+            padding: 10px;
+
+            
+        }
+        .note{
+            margin: 20px;
+            text-align: center;
+            border: 10px solid rgb(91, 71, 42);
+            padding: 15px;
+
+        }
+        input[type="email"]{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="note">
+        <h1>Box Model</h1>
+        <ul>
+            <li>Content</li>
+            <li>Border</li>
+            <li>Margin</li>
+            <li>Padding</li>
+        </ul>
+    </div>
+    <div class="myBlog">
+        <h1>My blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur, quaerat inventore ad provident placeat laboriosam sapiente nemo fugiat molestias ea accusantium atque velit eveniet sit, quasi quis a repellat?</p>
+    </div>
+    <div class="myBlog">
+        <h1>My blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur, quaerat inventore ad provident placeat laboriosam sapiente nemo fugiat molestias ea accusantium atque velit eveniet sit, quasi quis a repellat?</p>
+    </div>
+    <div class="myBlog">
+        <h1>My blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur, quaerat inventore ad provident placeat laboriosam sapiente nemo fugiat molestias ea accusantium atque velit eveniet sit, quasi quis a repellat?</p>
+    </div>
+    <div class="myBlog">
+        <h1>My blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur, quaerat inventore ad provident placeat laboriosam sapiente nemo fugiat molestias ea accusantium atque velit eveniet sit, quasi quis a repellat?</p>
+    </div>
+    <div>
+        <label for="pass1">Password1</label>
+        <input type="password" name="pass1" id="pass1">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+
+        <label for="pass2">Password2</label>
+        <input type="password" name="pass2" id="pass2">
+        <br>
+        <br>
+    </div>
+</body>
+</html>
